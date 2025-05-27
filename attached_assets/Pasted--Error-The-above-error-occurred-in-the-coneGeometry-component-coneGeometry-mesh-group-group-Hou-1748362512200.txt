@@ -1,0 +1,2325 @@
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@react-three_drei.js:101848:30
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <coneGeometry> component:
+
+coneGeometry
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <sphereGeometry> component:
+
+sphereGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <planeGeometry> component:
+
+planeGeometry
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] The above error occurred in the <meshStandardMaterial> component:
+
+meshStandardMaterial
+mesh
+group
+HousingMesh@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:21:35
+Suspense
+ErrorBoundary@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:46279:10
+FiberProvider@
+Provider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:47568:8
+
+React will try to recreate this component tree from scratch using the error boundary you provided, ErrorBoundary.
+	logCapturedError (chunk-NCAGQOPB.js:7745)
+	callback (chunk-NCAGQOPB.js:7791)
+	callCallback (chunk-NCAGQOPB.js:3696)
+	commitUpdateQueue (chunk-NCAGQOPB.js:3713)
+	commitLayoutEffectOnFiber (chunk-NCAGQOPB.js:11046)
+	commitLayoutMountEffects_complete (chunk-NCAGQOPB.js:12020)
+	commitLayoutEffects_begin (chunk-NCAGQOPB.js:12009)
+	commitLayoutEffects (chunk-NCAGQOPB.js:11960)
+	commitRootImpl (chunk-NCAGQOPB.js:13798)
+	commitRoot (chunk-NCAGQOPB.js:13723)
+	finishConcurrentRender (chunk-NCAGQOPB.js:13222)
+	performConcurrentWorkOnRoot (chunk-NCAGQOPB.js:13135)
+	workLoop (chunk-NCAGQOPB.js:254)
+	flushWork (chunk-NCAGQOPB.js:233)
+	performWorkUntilDeadline (chunk-NCAGQOPB.js:441)
+[Error] TypeError: undefined is not an object (evaluating 'acc[key2]')
+	Canvas (chunk-NCAGQOPB.js:48065)
+	renderWithHooks (chunk-WERSD76P.js:11548)
+	updateForwardRef (chunk-WERSD76P.js:14325)
+	callCallback2 (chunk-WERSD76P.js:3674)
+	dispatchEvent
+	invokeGuardedCallbackDev (chunk-WERSD76P.js:3699)
+	invokeGuardedCallback (chunk-WERSD76P.js:3733)
+	beginWork$1 (chunk-WERSD76P.js:19765)
+	performUnitOfWork (chunk-WERSD76P.js:19198)
+	workLoopSync (chunk-WERSD76P.js:19137)
+	renderRootSync (chunk-WERSD76P.js:19116)
+	performConcurrentWorkOnRoot (chunk-WERSD76P.js:18678:98)
+	workLoop (chunk-WERSD76P.js:197)
+	flushWork (chunk-WERSD76P.js:176)
+	performWorkUntilDeadline (chunk-WERSD76P.js:384)
+[Error] TypeError: undefined is not an object (evaluating 'acc[key2]')
+	Canvas (chunk-NCAGQOPB.js:48065)
+	renderWithHooks (chunk-WERSD76P.js:11548)
+	updateForwardRef (chunk-WERSD76P.js:14325)
+	callCallback2 (chunk-WERSD76P.js:3674)
+	dispatchEvent
+	invokeGuardedCallbackDev (chunk-WERSD76P.js:3699)
+	invokeGuardedCallback (chunk-WERSD76P.js:3733)
+	beginWork$1 (chunk-WERSD76P.js:19765)
+	performUnitOfWork (chunk-WERSD76P.js:19198)
+	workLoopSync (chunk-WERSD76P.js:19137)
+	renderRootSync (chunk-WERSD76P.js:19116)
+	recoverFromConcurrentError (chunk-WERSD76P.js:18736)
+	performConcurrentWorkOnRoot (chunk-WERSD76P.js:18684)
+	workLoop (chunk-WERSD76P.js:197)
+	flushWork (chunk-WERSD76P.js:176)
+	performWorkUntilDeadline (chunk-WERSD76P.js:384)
+[Error] The above error occurred in the <ForwardRef(Canvas)> component:
+
+Canvas@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-NCAGQOPB.js:48025:11
+FiberProvider@
+CanvasWrapper
+div
+ThreeJSVisualization@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ThreeJSVisualization.tsx:339:32
+div
+_c9@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ui/card.tsx:114:10
+div
+_c@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/components/ui/card.tsx:20:9
+div
+div
+main
+div
+div
+Dashboard@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/pages/Dashboard.tsx:33:27
+Route@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js:191:14
+Switch@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/wouter.js:248:27
+Router@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/src/App.tsx:29:49
+TooltipProviderProvider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/chunk-XIZKKOCE.js:22:13
+TooltipProvider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@radix-ui_react-tooltip.js:2224:43
+QueryClientProvider@https://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/@fs/home/runner/workspace/node_modules/.vite/deps/@tanstack_react-query.js:2805:9
+App
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+	logCapturedError (chunk-WERSD76P.js:14032)
+	(anonymous function) (chunk-WERSD76P.js:14052)
+	callCallback (chunk-WERSD76P.js:11248)
+	commitUpdateQueue (chunk-WERSD76P.js:11265)
+	commitLayoutEffectOnFiber (chunk-WERSD76P.js:17093)
+	commitLayoutMountEffects_complete (chunk-WERSD76P.js:17980)
+	commitLayoutEffects_begin (chunk-WERSD76P.js:17969)
+	commitLayoutEffects (chunk-WERSD76P.js:17920)
+	commitRootImpl (chunk-WERSD76P.js:19353)
+	commitRoot (chunk-WERSD76P.js:19277)
+	finishConcurrentRender (chunk-WERSD76P.js:18760)
+	performConcurrentWorkOnRoot (chunk-WERSD76P.js:18718)
+	workLoop (chunk-WERSD76P.js:197)
+	flushWork (chunk-WERSD76P.js:176)
+	performWorkUntilDeadline (chunk-WERSD76P.js:384)
+[Error] WebSocket connection to 'wss://ef05191c-4a7d-4fac-ae7d-87f498356930-00-2nzs8jg7i17fy.spock.replit.dev/ws' failed: WebSocket is closed before the connection is established.
+	(anonymous function) (useWebSocket.ts:48)
+	(anonymous function) (useWebSocket.ts:153)
+	safelyCallDestroy (chunk-WERSD76P.js:16748)
+	commitHookEffectListUnmount (chunk-WERSD76P.js:16875)
+	commitPassiveUnmountInsideDeletedTreeOnFiber (chunk-WERSD76P.js:18283)
+	commitPassiveUnmountEffectsInsideOfDeletedTree_begin (chunk-WERSD76P.js:18245)
+	commitPassiveUnmountEffects_begin (chunk-WERSD76P.js:18181)
+	commitPassiveUnmountEffects (chunk-WERSD76P.js:18169)
+	flushPassiveEffectsImpl (chunk-WERSD76P.js:19489)
+	flushPassiveEffects (chunk-WERSD76P.js:19447)
+	performSyncWorkOnRoot (chunk-WERSD76P.js:18868)
+	flushSyncCallbacks (chunk-WERSD76P.js:9119)
+	(anonymous function) (chunk-WERSD76P.js:18627)
+[Error] TypeError: undefined is not an object (evaluating 'acc[key2]')
+	commitRootImpl (chunk-WERSD76P.js:19413)
+	commitRoot (chunk-WERSD76P.js:19277)
+	finishConcurrentRender (chunk-WERSD76P.js:18760)
+	performConcurrentWorkOnRoot (chunk-WERSD76P.js:18718)
+	workLoop (chunk-WERSD76P.js:197)
+	flushWork (chunk-WERSD76P.js:176)
+	performWorkUntilDeadline (chunk-WERSD76P.js:384)
+[Error] WebSocket error: – Event
+Event
+	(anonymous function) (useWebSocket.ts:43)

@@ -1,7 +1,5 @@
-import { useEffect, useRef } from 'react';
-import * as THREE from 'three';
-import { Canvas, useFrame, useThree } from '@react-three/fiber';
-import { OrbitControls, Text, Box } from '@react-three/drei';
+import { useRef } from 'react';
+import { Canvas, useFrame } from '@react-three/fiber';
 
 interface MarketState {
   medianPrice: number;
@@ -23,8 +21,7 @@ interface HousingMeshProps {
 }
 
 function HousingMesh({ marketState }: HousingMeshProps) {
-  const meshRef = useRef<THREE.Group>(null);
-  const { camera } = useThree();
+  const meshRef = useRef<any>(null);
 
   useFrame((state) => {
     if (meshRef.current && marketState) {
@@ -40,22 +37,17 @@ function HousingMesh({ marketState }: HousingMeshProps) {
   if (!marketState) {
     return (
       <group>
-        <Text
-          position={[0, 0, 0]}
-          fontSize={0.5}
-          color="#6B7280"
-          anchorX="center"
-          anchorY="middle"
-        >
-          Loading Market Data...
-        </Text>
+        <mesh position={[0, 0, 0]}>
+          <boxGeometry args={[4, 1, 0.1]} />
+          <meshStandardMaterial color="#6B7280" />
+        </mesh>
       </group>
     );
   }
 
   // Calculate visualization parameters based on market state
   const priceHeight = Math.max(0.5, marketState.medianPrice / 200000); // Scale house height by price
-  const supplyDensity = Math.floor(marketState.supplyLevel / 10); // Number of supply houses
+  const supplyDensity = Math.min(20, Math.floor(marketState.supplyLevel / 10)); // Number of supply houses
   const demandIntensity = marketState.demandLevel / 100; // Demand visualization intensity
   const bubbleSize = 1 + (marketState.bubbleRisk / 100) * 2; // Bubble size based on risk
 
@@ -69,18 +61,14 @@ function HousingMesh({ marketState }: HousingMeshProps) {
     houses.push(
       <group key={i} position={[x, 0, z]}>
         {/* House base */}
-        <Box
-          position={[0, priceHeight / 2, 0]}
-          args={[0.8, priceHeight, 0.8]}
-          castShadow
-          receiveShadow
-        >
+        <mesh position={[0, priceHeight / 2, 0]} castShadow receiveShadow>
+          <boxGeometry args={[0.8, priceHeight, 0.8]} />
           <meshStandardMaterial
             color={marketState.priceGrowth > 0 ? '#10B981' : '#EF4444'}
             opacity={0.8}
             transparent
           />
-        </Box>
+        </mesh>
         
         {/* House roof */}
         <mesh position={[0, priceHeight + 0.3, 0]} castShadow>
@@ -97,7 +85,7 @@ function HousingMesh({ marketState }: HousingMeshProps) {
       {houses}
 
       {/* Demand visualization - floating spheres */}
-      {Array.from({ length: Math.floor(demandIntensity * 20) }, (_, i) => (
+      {Array.from({ length: Math.min(50, Math.floor(demandIntensity * 20)) }, (_, i) => (
         <mesh
           key={`demand-${i}`}
           position={[
@@ -106,7 +94,7 @@ function HousingMesh({ marketState }: HousingMeshProps) {
             (Math.random() - 0.5) * 20
           ]}
         >
-          <sphereGeometry args={[0.1, 16, 16]} />
+          <sphereGeometry args={[0.1, 8, 6]} />
           <meshStandardMaterial 
             color="#2563EB" 
             emissive="#1E40AF"
@@ -118,7 +106,7 @@ function HousingMesh({ marketState }: HousingMeshProps) {
       {/* Bubble risk visualization */}
       {marketState.bubbleRisk > 30 && (
         <mesh position={[0, 5, 0]}>
-          <sphereGeometry args={[bubbleSize, 32, 32]} />
+          <sphereGeometry args={[bubbleSize, 16, 12]} />
           <meshStandardMaterial
             color="#EF4444"
             transparent
@@ -128,42 +116,6 @@ function HousingMesh({ marketState }: HousingMeshProps) {
           />
         </mesh>
       )}
-
-      {/* Market indicators text */}
-      <group position={[-8, 3, 0]}>
-        <Text
-          fontSize={0.4}
-          color="#1F2937"
-          anchorX="left"
-          position={[0, 2, 0]}
-        >
-          Median Price: ${Math.round(marketState.medianPrice).toLocaleString()}
-        </Text>
-        <Text
-          fontSize={0.4}
-          color={marketState.priceGrowth > 0 ? "#10B981" : "#EF4444"}
-          anchorX="left"
-          position={[0, 1.5, 0]}
-        >
-          Price Growth: {marketState.priceGrowth.toFixed(1)}%
-        </Text>
-        <Text
-          fontSize={0.4}
-          color="#F59E0B"
-          anchorX="left"
-          position={[0, 1, 0]}
-        >
-          Inventory: {marketState.inventory.toFixed(1)} months
-        </Text>
-        <Text
-          fontSize={0.4}
-          color="#EF4444"
-          anchorX="left"
-          position={[0, 0.5, 0]}
-        >
-          Bubble Risk: {Math.round(marketState.bubbleRisk)}%
-        </Text>
-      </group>
 
       {/* Ground plane */}
       <mesh position={[0, -0.1, 0]} receiveShadow rotation={[-Math.PI / 2, 0, 0]}>
@@ -183,29 +135,15 @@ export default function ThreeJSVisualization({ marketState }: ThreeJSVisualizati
     <div className="w-full h-full relative">
       <Canvas
         camera={{ position: [10, 8, 10], fov: 50 }}
-        shadows
         className="rounded-lg"
       >
         {/* Lighting */}
-        <ambientLight intensity={0.4} />
+        <ambientLight intensity={0.6} />
         <directionalLight
           position={[10, 10, 5]}
           intensity={1}
-          castShadow
-          shadow-mapSize-width={2048}
-          shadow-mapSize-height={2048}
         />
         <pointLight position={[-10, 10, -10]} intensity={0.5} />
-
-        {/* Controls */}
-        <OrbitControls
-          enablePan={true}
-          enableZoom={true}
-          enableRotate={true}
-          minDistance={5}
-          maxDistance={25}
-          maxPolarAngle={Math.PI / 2}
-        />
 
         {/* Market visualization */}
         <HousingMesh marketState={marketState} />
