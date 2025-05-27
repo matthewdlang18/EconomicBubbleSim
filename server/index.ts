@@ -62,7 +62,8 @@ app.use((req, res, next) => {
 
   // Use environment variable for port, fallback to 5000
   const port = parseInt(process.env.PORT || "5000", 10);
-  server.listen(port, "localhost", () => {
-    log(`serving on port ${port}`);
+  const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : "localhost";
+  server.listen(port, host, () => {
+    log(`serving on ${host}:${port}`);
   });
 })();
