@@ -1,0 +1,12 @@
+# Ignore local development files
+.env
+.env.local
+local.db
+*.sqlite
+
+# Ignore build artifacts that will be rebuilt
+dist/
+node_modules/
+
+# Ignore development logs
+*.log
