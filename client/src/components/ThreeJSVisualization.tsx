@@ -106,7 +106,7 @@ function HousingMesh({ marketState }: HousingMeshProps) {
             (Math.random() - 0.5) * 20
           ]}
         >
-          <sphereGeometry args={[0.1, 8, 8]} />
+          <sphereGeometry args={[0.1, 16, 16]} />
           <meshStandardMaterial 
             color="#2563EB" 
             emissive="#1E40AF"
@@ -166,7 +166,7 @@ function HousingMesh({ marketState }: HousingMeshProps) {
       </group>
 
       {/* Ground plane */}
-      <mesh position={[0, -0.1, 0]} receiveShadow>
+      <mesh position={[0, -0.1, 0]} receiveShadow rotation={[-Math.PI / 2, 0, 0]}>
         <planeGeometry args={[30, 30]} />
         <meshStandardMaterial color="#F3F4F6" />
       </mesh>
