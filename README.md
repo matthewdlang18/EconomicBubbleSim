@@ -31,7 +31,7 @@ An interactive educational web application that simulates the 2008 housing crisi
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/matthewdlang18/EconomicBubbleSim.git
    cd EconomicBubbleSim
    ```
 
