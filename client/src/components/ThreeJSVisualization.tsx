@@ -1,5 +1,6 @@
-import { useRef } from 'react';
+import { useRef, Suspense } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber';
+import { ErrorBoundary } from 'react-error-boundary';
 
 interface MarketState {
   medianPrice: number;
@@ -45,11 +46,11 @@ function HousingMesh({ marketState }: HousingMeshProps) {
     );
   }
 
-  // Calculate visualization parameters based on market state
-  const priceHeight = Math.max(0.5, marketState.medianPrice / 200000); // Scale house height by price
-  const supplyDensity = Math.min(20, Math.floor(marketState.supplyLevel / 10)); // Number of supply houses
-  const demandIntensity = marketState.demandLevel / 100; // Demand visualization intensity
-  const bubbleSize = 1 + (marketState.bubbleRisk / 100) * 2; // Bubble size based on risk
+  // Calculate visualization parameters based on market state with safety checks
+  const priceHeight = Math.max(0.5, Math.min(5, marketState.medianPrice / 200000)); // Clamp height
+  const supplyDensity = Math.min(20, Math.max(1, Math.floor(marketState.supplyLevel / 10))); // Safety bounds
+  const demandIntensity = Math.max(0, Math.min(1, marketState.demandLevel / 100)); // Normalize demand
+  const bubbleSize = Math.max(0.5, Math.min(3, 1 + (marketState.bubbleRisk / 100) * 2)); // Clamp bubble size
 
   // Generate grid of houses representing supply
   const houses = [];
@@ -70,9 +71,9 @@ function HousingMesh({ marketState }: HousingMeshProps) {
           />
         </mesh>
         
-        {/* House roof */}
+        {/* House roof - Fixed geometry args */}
         <mesh position={[0, priceHeight + 0.3, 0]} castShadow>
-          <coneGeometry args={[0.6, 0.6, 4]} />
+          <coneGeometry args={[0.6, 0.6, 8]} />
           <meshStandardMaterial color="#8B7355" />
         </mesh>
       </group>
@@ -130,24 +131,45 @@ interface ThreeJSVisualizationProps {
   marketState: MarketState | null;
 }
 
+function ErrorFallback({error}: {error: Error}) {
+  return (
+    <div className="w-full h-full flex items-center justify-center bg-gray-100 rounded-lg">
+      <div className="text-center p-4">
+        <div className="text-red-500 mb-2">3D Visualization Error</div>
+        <div className="text-sm text-gray-600">
+          {error.message || "Failed to render 3D visualization"}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function ThreeJSVisualization({ marketState }: ThreeJSVisualizationProps) {
   return (
     <div className="w-full h-full relative">
-      <Canvas
-        camera={{ position: [10, 8, 10], fov: 50 }}
-        className="rounded-lg"
-      >
-        {/* Lighting */}
-        <ambientLight intensity={0.6} />
-        <directionalLight
-          position={[10, 10, 5]}
-          intensity={1}
-        />
-        <pointLight position={[-10, 10, -10]} intensity={0.5} />
+      <ErrorBoundary FallbackComponent={ErrorFallback}>
+        <Canvas
+          camera={{ position: [10, 8, 10], fov: 50 }}
+          className="rounded-lg"
+          gl={{ antialias: true, alpha: false }}
+        >
+          <Suspense fallback={null}>
+            {/* Lighting */}
+            <ambientLight intensity={0.6} />
+            <directionalLight
+              position={[10, 10, 5]}
+              intensity={1}
+              castShadow
+              shadow-mapSize-width={1024}
+              shadow-mapSize-height={1024}
+            />
+            <pointLight position={[-10, 10, -10]} intensity={0.5} />
 
-        {/* Market visualization */}
-        <HousingMesh marketState={marketState} />
-      </Canvas>
+            {/* Market visualization */}
+            <HousingMesh marketState={marketState} />
+          </Suspense>
+        </Canvas>
+      </ErrorBoundary>
 
       {/* Overlay information */}
       {marketState && (

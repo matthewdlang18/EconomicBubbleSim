@@ -59,7 +59,7 @@ export function useWebSocket() {
       // Authenticate with the server
       ws.current?.send(JSON.stringify({
         type: 'authenticate',
-        payload: { userId: user.id }
+        payload: { userId: user?.id }
       }));
     };
 

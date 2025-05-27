@@ -120,7 +120,7 @@ export default function TutorialSystem({ onClose, currentRole }: TutorialSystemP
   const progress = ((currentStep + 1) / tutorialSteps.length) * 100;
 
   const handleNext = () => {
-    setCompletedSteps(prev => new Set([...prev, step.id]));
+    setCompletedSteps(prev => new Set(Array.from(prev).concat(step.id)));
     
     if (currentStep < tutorialSteps.length - 1) {
       setCurrentStep(currentStep + 1);

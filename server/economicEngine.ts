@@ -80,18 +80,18 @@ export class EconomicEngine {
     ];
   }
 
-  public processPlayerAction(action: PlayerAction): { marketEvents: InsertMarketEvent[]; newState: MarketState } {
+  public processPlayerAction(action: PlayerAction, sessionId: number): { marketEvents: InsertMarketEvent[]; newState: MarketState } {
     const events: InsertMarketEvent[] = [];
     
     switch (action.role) {
       case 'homebuyer':
-        this.processHomebuyerAction(action, events);
+        this.processHomebuyerAction(action, events, sessionId);
         break;
       case 'investor':
-        this.processInvestorAction(action, events);
+        this.processInvestorAction(action, events, sessionId);
         break;
       case 'regulator':
-        this.processRegulatorAction(action, events);
+        this.processRegulatorAction(action, events, sessionId);
         break;
     }
 
@@ -107,7 +107,7 @@ export class EconomicEngine {
     };
   }
 
-  private processHomebuyerAction(action: PlayerAction, events: InsertMarketEvent[]): void {
+  private processHomebuyerAction(action: PlayerAction, events: InsertMarketEvent[], sessionId: number): void {
     switch (action.actionType) {
       case 'purchase':
         const purchasePrice = action.parameters.price;
@@ -119,6 +119,7 @@ export class EconomicEngine {
         
         // Record decision impact
         events.push({
+          sessionId,
           eventType: 'homebuyer_purchase',
           eventData: {
             price: purchasePrice,
@@ -139,6 +140,7 @@ export class EconomicEngine {
         this.marketState.demandLevel -= 0.5;
         
         events.push({
+          sessionId,
           eventType: 'homebuyer_wait',
           eventData: { reason: action.parameters.reason },
           triggeredBy: action.userId,
@@ -148,7 +150,7 @@ export class EconomicEngine {
     }
   }
 
-  private processInvestorAction(action: PlayerAction, events: InsertMarketEvent[]): void {
+  private processInvestorAction(action: PlayerAction, events: InsertMarketEvent[], sessionId: number): void {
     switch (action.actionType) {
       case 'buy_properties':
         const quantity = action.parameters.quantity;
@@ -159,6 +161,7 @@ export class EconomicEngine {
         this.marketState.bubbleRisk += quantity * leverage * 0.1;
         
         events.push({
+          sessionId,
           eventType: 'investor_purchase',
           eventData: { quantity, leverage },
           triggeredBy: action.userId,
@@ -174,6 +177,7 @@ export class EconomicEngine {
         this.marketState.bubbleRisk += 5;
         
         events.push({
+          sessionId,
           eventType: 'mortgage_securitization',
           eventData: action.parameters,
           triggeredBy: action.userId,
@@ -183,7 +187,7 @@ export class EconomicEngine {
     }
   }
 
-  private processRegulatorAction(action: PlayerAction, events: InsertMarketEvent[]): void {
+  private processRegulatorAction(action: PlayerAction, events: InsertMarketEvent[], sessionId: number): void {
     switch (action.actionType) {
       case 'set_fed_rate':
         const newRate = action.parameters.rate;
@@ -196,6 +200,7 @@ export class EconomicEngine {
         this.marketState.demandLevel -= rateChange * 10; // Higher rates reduce demand
         
         events.push({
+          sessionId,
           eventType: 'fed_rate_change',
           eventData: { oldRate, newRate, change: rateChange },
           triggeredBy: action.userId,
@@ -216,6 +221,7 @@ export class EconomicEngine {
         this.marketState.demandLevel -= ltvImpact * 0.3;
         
         events.push({
+          sessionId,
           eventType: 'ltv_regulation',
           eventData: { maxLTV: action.parameters.maxLTV },
           triggeredBy: action.userId,
@@ -233,6 +239,7 @@ export class EconomicEngine {
           this.marketState.bubbleRisk -= 10;
           
           events.push({
+            sessionId,
             eventType: 'stress_testing_mandate',
             eventData: { enabled: true },
             triggeredBy: action.userId,

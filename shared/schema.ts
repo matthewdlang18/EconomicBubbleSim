@@ -84,10 +84,6 @@ export const classroomSessions = pgTable("classroom_sessions", {
 });
 
 export type UpsertUser = typeof users.$inferInsert;
-export type User = typeof users.$inferSelect;
-
-export type InsertGameSession = typeof gameSessions.$inferInsert;
-export type GameSession = typeof gameSessions.$inferSelect;
 
 export type InsertStudentDecision = typeof studentDecisions.$inferInsert;
 export type StudentDecision = typeof studentDecisions.$inferSelect;
@@ -97,6 +93,12 @@ export type MarketEvent = typeof marketEvents.$inferSelect;
 
 export type InsertClassroomSession = typeof classroomSessions.$inferInsert;
 export type ClassroomSession = typeof classroomSessions.$inferSelect;
+
+// Type exports for client-side use
+export type User = typeof users.$inferSelect;
+export type InsertUser = typeof users.$inferInsert;
+export type GameSession = typeof gameSessions.$inferSelect;
+export type InsertGameSession = typeof gameSessions.$inferInsert;
 
 // Schemas for validation
 export const insertGameSessionSchema = createInsertSchema(gameSessions).omit({

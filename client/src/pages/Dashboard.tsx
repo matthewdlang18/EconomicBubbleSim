@@ -133,7 +133,7 @@ export default function Dashboard() {
               
               <div className="flex items-center space-x-2">
                 <Avatar className="w-8 h-8">
-                  <AvatarImage src={user?.profileImageUrl} alt="Profile" />
+                  <AvatarImage src={user?.profileImageUrl || undefined} alt="Profile" />
                   <AvatarFallback className="text-xs">{getUserInitials()}</AvatarFallback>
                 </Avatar>
                 <span className="text-sm font-medium text-gray-900">{getDisplayName()}</span>

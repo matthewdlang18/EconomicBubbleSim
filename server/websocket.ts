@@ -177,7 +177,7 @@ export class SimulationWebSocketServer {
       ...payload,
       userId: client.userId,
       role: client.role as any,
-    });
+    }, client.sessionId);
 
     // Record the decision in the database
     await storage.recordDecision({

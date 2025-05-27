@@ -52,21 +52,21 @@ function SupplyDemandChart({ marketState }: { marketState: MarketState | null })
     const yScale = d3.scaleLinear().domain([0, 1000000]).range([height, 0]);
 
     // Supply curve data (upward sloping)
-    const supplyData = d3.range(50, 200, 10).map(quantity => ({
+    const supplyData = d3.range(50, 200, 10).map((quantity: number) => ({
       quantity,
       price: 200000 + quantity * 2000 + Math.random() * 50000
     }));
 
     // Demand curve data (downward sloping)
-    const demandData = d3.range(50, 200, 10).map(quantity => ({
+    const demandData = d3.range(50, 200, 10).map((quantity: number) => ({
       quantity: 250 - quantity,
       price: 200000 + quantity * 2000 + Math.random() * 50000
     }));
 
     // Create line generators
     const line = d3.line<{quantity: number, price: number}>()
-      .x(d => xScale(d.quantity))
-      .y(d => yScale(d.price))
+      .x((d: any) => xScale(d.quantity))
+      .y((d: any) => yScale(d.price))
       .curve(d3.curveMonotoneX);
 
     // Add supply curve
@@ -169,7 +169,7 @@ function PriceIncomeChart({ marketState }: { marketState: MarketState | null }) 
 
     // Create scales
     const xScale = d3.scaleLinear()
-      .domain(d3.extent(historicalData, d => d.time) as [number, number])
+      .domain(d3.extent(historicalData, (d: any) => d.time) as [number, number])
       .range([0, width]);
     
     const yScale = d3.scaleLinear()
@@ -178,8 +178,8 @@ function PriceIncomeChart({ marketState }: { marketState: MarketState | null }) 
 
     // Create line generator
     const line = d3.line<typeof historicalData[0]>()
-      .x(d => xScale(d.time))
-      .y(d => yScale(d.ratio))
+      .x((d: any) => xScale(d.time))
+      .y((d: any) => yScale(d.ratio))
       .curve(d3.curveMonotoneX);
 
     // Add danger zone (P/I ratio > 5)
@@ -223,7 +223,7 @@ function PriceIncomeChart({ marketState }: { marketState: MarketState | null }) 
     // Add axes
     g.append("g")
       .attr("transform", `translate(0,${height})`)
-      .call(d3.axisBottom(xScale).ticks(5).tickFormat(d => `${2005 + Math.floor(Number(d) / 4)}`));
+      .call(d3.axisBottom(xScale).ticks(5).tickFormat((d: any) => `${2005 + Math.floor(Number(d) / 4)}`));
 
     g.append("g")
       .call(d3.axisLeft(yScale).ticks(4));
