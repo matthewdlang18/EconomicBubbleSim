@@ -40,30 +40,44 @@ app.use((req, res, next) => {
   next();
 });
 
-(async () => {
-  const server = await registerRoutes(app);
+// Setup server
+let server: any;
 
-  app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
-    const status = err.status || err.statusCode || 500;
-    const message = err.message || "Internal Server Error";
+async function setupServer() {
+  if (!server) {
+    server = await registerRoutes(app);
 
-    res.status(status).json({ message });
-    throw err;
-  });
+    app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
+      const status = err.status || err.statusCode || 500;
+      const message = err.message || "Internal Server Error";
 
-  // importantly only setup vite in development and after
-  // setting up all the other routes so the catch-all route
-  // doesn't interfere with the other routes
-  if (app.get("env") === "development") {
-    await setupVite(app, server);
-  } else {
-    serveStatic(app);
+      res.status(status).json({ message });
+      console.error(err);
+    });
+
+    // Setup serving (development vs production)
+    if (app.get("env") === "development") {
+      await setupVite(app, server);
+    } else {
+      serveStatic(app);
+    }
   }
+  return { app, server };
+}
 
-  // Use environment variable for port, fallback to 5000
-  const port = parseInt(process.env.PORT || "5000", 10);
-  const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : "localhost";
-  server.listen(port, host, () => {
-    log(`serving on ${host}:${port}`);
+// For Vercel serverless functions
+export default async function handler(req: any, res: any) {
+  const { app } = await setupServer();
+  return app(req, res);
+}
+
+// For local development and traditional hosting
+if (process.env.NODE_ENV !== "production" || process.env.VERCEL !== "1") {
+  setupServer().then(({ server }) => {
+    const port = parseInt(process.env.PORT || "5000", 10);
+    const host = process.env.NODE_ENV === "production" ? "0.0.0.0" : "localhost";
+    server.listen(port, host, () => {
+      log(`serving on ${host}:${port}`);
+    });
   });
-})();
+}

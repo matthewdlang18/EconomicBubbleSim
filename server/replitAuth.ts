@@ -8,9 +8,8 @@ import memoize from "memoizee";
 import connectPg from "connect-pg-simple";
 import { storage } from "./storage";
 
-if (!process.env.REPLIT_DOMAINS) {
-  throw new Error("Environment variable REPLIT_DOMAINS not provided");
-}
+// Make Replit Auth optional
+const hasReplitAuth = process.env.REPLIT_DOMAINS && process.env.REPL_ID;
 
 const getOidcConfig = memoize(
   async () => {
@@ -72,6 +71,12 @@ export async function setupAuth(app: Express) {
   app.use(passport.initialize());
   app.use(passport.session());
 
+  // Only setup Replit Auth if configured
+  if (!hasReplitAuth) {
+    console.log("Replit Auth not configured - skipping OAuth setup");
+    return;
+  }
+
   const config = await getOidcConfig();
 
   const verify: VerifyFunction = async (
@@ -128,6 +133,11 @@ export async function setupAuth(app: Express) {
 }
 
 export const isAuthenticated: RequestHandler = async (req, res, next) => {
+  // Skip authentication if Replit Auth is not configured
+  if (!hasReplitAuth) {
+    return next();
+  }
+
   const user = req.user as any;
 
   if (!req.isAuthenticated() || !user.expires_at) {
