@@ -1,0 +1,396 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 248 250 252; /* #F8FAFC */
+  --foreground: 31 41 55; /* #1F2937 */
+  --muted: 243 244 246; /* #F3F4F6 */
+  --muted-foreground: 107 114 128; /* #6B7280 */
+  --popover: 255 255 255; /* #FFFFFF */
+  --popover-foreground: 31 41 55; /* #1F2937 */
+  --card: 255 255 255; /* #FFFFFF */
+  --card-foreground: 31 41 55; /* #1F2937 */
+  --border: 229 231 235; /* #E5E7EB */
+  --input: 229 231 235; /* #E5E7EB */
+  --primary: 37 99 235; /* #2563EB */
+  --primary-foreground: 248 250 252; /* #F8FAFC */
+  --secondary: 16 185 129; /* #10B981 */
+  --secondary-foreground: 31 41 55; /* #1F2937 */
+  --accent: 245 158 11; /* #F59E0B */
+  --accent-foreground: 31 41 55; /* #1F2937 */
+  --destructive: 239 68 68; /* #EF4444 */
+  --destructive-foreground: 248 250 252; /* #F8FAFC */
+  --ring: 37 99 235; /* #2563EB */
+  --radius: 0.5rem;
+  
+  /* Custom colors for the housing simulator */
+  --custom-gray: 107 114 128; /* #6B7280 */
+  --bg-light: 248 250 252; /* #F8FAFC */
+  --dark-slate: 30 41 59; /* #1E293B */
+  --danger: 239 68 68; /* #EF4444 */
+  
+  /* Chart and visualization colors */
+  --chart-1: 37 99 235; /* #2563EB */
+  --chart-2: 16 185 129; /* #10B981 */
+  --chart-3: 245 158 11; /* #F59E0B */
+  --chart-4: 239 68 68; /* #EF4444 */
+  --chart-5: 168 85 247; /* #A855F7 */
+  
+  /* Sidebar colors */
+  --sidebar-background: 255 255 255; /* #FFFFFF */
+  --sidebar-foreground: 31 41 55; /* #1F2937 */
+  --sidebar-primary: 37 99 235; /* #2563EB */
+  --sidebar-primary-foreground: 248 250 252; /* #F8FAFC */
+  --sidebar-accent: 243 244 246; /* #F3F4F6 */
+  --sidebar-accent-foreground: 31 41 55; /* #1F2737 */
+  --sidebar-border: 229 231 235; /* #E5E7EB */
+  --sidebar-ring: 37 99 235; /* #2563EB */
+}
+
+.dark {
+  --background: 30 41 59; /* #1E293B */
+  --foreground: 248 250 252; /* #F8FAFC */
+  --muted: 51 65 85; /* #334155 */
+  --muted-foreground: 148 163 184; /* #94A3B8 */
+  --popover: 30 41 59; /* #1E293B */
+  --popover-foreground: 248 250 252; /* #F8FAFC */
+  --card: 30 41 59; /* #1E293B */
+  --card-foreground: 248 250 252; /* #F8FAFC */
+  --border: 51 65 85; /* #334155 */
+  --input: 51 65 85; /* #334155 */
+  --primary: 37 99 235; /* #2563EB */
+  --primary-foreground: 248 250 252; /* #F8FAFC */
+  --secondary: 16 185 129; /* #10B981 */
+  --secondary-foreground: 30 41 59; /* #1E293B */
+  --accent: 245 158 11; /* #F59E0B */
+  --accent-foreground: 30 41 59; /* #1E293B */
+  --destructive: 239 68 68; /* #EF4444 */
+  --destructive-foreground: 248 250 252; /* #F8FAFC */
+  --ring: 37 99 235; /* #2563EB */
+  
+  /* Custom dark mode colors */
+  --custom-gray: 148 163 184; /* #94A3B8 */
+  --bg-light: 30 41 59; /* #1E293B */
+  --dark-slate: 15 23 42; /* #0F172A */
+  --danger: 239 68 68; /* #EF4444 */
+  
+  /* Dark mode sidebar */
+  --sidebar-background: 30 41 59; /* #1E293B */
+  --sidebar-foreground: 248 250 252; /* #F8FAFC */
+  --sidebar-primary: 37 99 235; /* #2563EB */
+  --sidebar-primary-foreground: 248 250 252; /* #F8FAFC */
+  --sidebar-accent: 51 65 85; /* #334155 */
+  --sidebar-accent-foreground: 248 250 252; /* #F8FAFC */
+  --sidebar-border: 51 65 85; /* #334155 */
+  --sidebar-ring: 37 99 235; /* #2563EB */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  /* Custom scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-border hover:bg-muted-foreground;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground;
+  }
+}
+
+@layer components {
+  /* Custom component styles for the housing simulator */
+  .market-indicator {
+    @apply inline-flex items-center px-2 py-1 rounded-full text-xs font-medium;
+  }
+
+  .market-indicator.positive {
+    @apply bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300;
+  }
+
+  .market-indicator.negative {
+    @apply bg-red-100 text-red-800 dark:bg-red-900 dark:text-red-300;
+  }
+
+  .market-indicator.neutral {
+    @apply bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-300;
+  }
+
+  /* Role-specific styling */
+  .role-homebuyer {
+    @apply border-l-4 border-l-green-500 bg-green-50 dark:bg-green-950;
+  }
+
+  .role-investor {
+    @apply border-l-4 border-l-blue-500 bg-blue-50 dark:bg-blue-950;
+  }
+
+  .role-regulator {
+    @apply border-l-4 border-l-purple-500 bg-purple-50 dark:bg-purple-950;
+  }
+
+  /* Chart container styling */
+  .chart-container {
+    @apply bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700 p-4 shadow-sm;
+  }
+
+  /* Tutorial overlay animations */
+  .tutorial-enter {
+    @apply opacity-0 scale-95;
+    transition: opacity 200ms ease-out, transform 200ms ease-out;
+  }
+
+  .tutorial-enter-active {
+    @apply opacity-100 scale-100;
+  }
+
+  .tutorial-exit {
+    @apply opacity-100 scale-100;
+    transition: opacity 150ms ease-in, transform 150ms ease-in;
+  }
+
+  .tutorial-exit-active {
+    @apply opacity-0 scale-95;
+  }
+
+  /* Notification animations */
+  .notification-enter {
+    @apply translate-x-full opacity-0;
+    transition: transform 300ms ease-out, opacity 300ms ease-out;
+  }
+
+  .notification-enter-active {
+    @apply translate-x-0 opacity-100;
+  }
+
+  .notification-exit {
+    @apply translate-x-0 opacity-100;
+    transition: transform 300ms ease-in, opacity 300ms ease-in;
+  }
+
+  .notification-exit-active {
+    @apply translate-x-full opacity-0;
+  }
+
+  /* Policy control styling */
+  .policy-control {
+    @apply space-y-4 p-4 bg-white dark:bg-gray-800 rounded-lg border border-gray-200 dark:border-gray-700;
+  }
+
+  .policy-slider {
+    @apply w-full h-2 bg-gray-200 dark:bg-gray-700 rounded-lg appearance-none cursor-pointer;
+  }
+
+  .policy-slider::-webkit-slider-thumb {
+    @apply appearance-none w-4 h-4 bg-primary rounded-full cursor-pointer;
+  }
+
+  .policy-slider::-moz-range-thumb {
+    @apply w-4 h-4 bg-primary rounded-full cursor-pointer border-0;
+  }
+
+  /* Three.js canvas styling */
+  .three-canvas {
+    @apply rounded-lg overflow-hidden;
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 100%);
+  }
+
+  /* Loading states */
+  .loading-skeleton {
+    @apply animate-pulse bg-gray-200 dark:bg-gray-700 rounded;
+  }
+
+  /* Market status indicators */
+  .bubble-risk-low {
+    @apply text-green-600 bg-green-100 dark:text-green-400 dark:bg-green-900;
+  }
+
+  .bubble-risk-medium {
+    @apply text-yellow-600 bg-yellow-100 dark:text-yellow-400 dark:bg-yellow-900;
+  }
+
+  .bubble-risk-high {
+    @apply text-red-600 bg-red-100 dark:text-red-400 dark:bg-red-900;
+  }
+
+  /* Interactive elements */
+  .interactive-highlight {
+    @apply transition-all duration-200 hover:shadow-md hover:scale-105;
+  }
+
+  /* Data visualization elements */
+  .chart-tooltip {
+    @apply bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-2 text-xs;
+  }
+
+  /* Economic indicator styling */
+  .economic-indicator {
+    @apply flex items-center justify-between p-3 bg-gray-50 dark:bg-gray-800 rounded-lg;
+  }
+
+  .economic-indicator .label {
+    @apply text-sm text-gray-600 dark:text-gray-400;
+  }
+
+  .economic-indicator .value {
+    @apply text-sm font-semibold text-gray-900 dark:text-gray-100;
+  }
+
+  /* Role panel specific styling */
+  .homebuyer-panel {
+    @apply bg-gradient-to-br from-green-50 to-emerald-50 dark:from-green-950 dark:to-emerald-950;
+  }
+
+  .investor-panel {
+    @apply bg-gradient-to-br from-blue-50 to-indigo-50 dark:from-blue-950 dark:to-indigo-950;
+  }
+
+  .regulator-panel {
+    @apply bg-gradient-to-br from-purple-50 to-violet-50 dark:from-purple-950 dark:to-violet-950;
+  }
+}
+
+@layer utilities {
+  /* Custom utility classes */
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-blue-600 bg-clip-text text-transparent;
+  }
+
+  .glass-effect {
+    @apply bg-white/60 dark:bg-gray-800/60 backdrop-blur-sm border border-white/20 dark:border-gray-700/20;
+  }
+
+  .market-up {
+    @apply text-green-600 dark:text-green-400;
+  }
+
+  .market-down {
+    @apply text-red-600 dark:text-red-400;
+  }
+
+  .market-stable {
+    @apply text-gray-600 dark:text-gray-400;
+  }
+
+  /* Animation utilities */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-pulse-slow {
+    animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-bounce-subtle {
+    animation: bounce-subtle 2s infinite;
+  }
+
+  /* Screen reader utilities */
+  .sr-only {
+    @apply absolute w-px h-px p-0 -m-px overflow-hidden whitespace-nowrap border-0;
+    clip: rect(0, 0, 0, 0);
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes bounce-subtle {
+  0%, 100% {
+    transform: translateY(0);
+    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+  }
+  50% {
+    transform: translateY(-5px);
+    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  }
+}
+
+/* Focus styles for accessibility */
+@layer base {
+  :focus-visible {
+    @apply outline-2 outline-primary outline-offset-2;
+  }
+
+  button:focus-visible,
+  input:focus-visible,
+  select:focus-visible,
+  textarea:focus-visible {
+    @apply ring-2 ring-primary ring-offset-2;
+  }
+}
+
+/* Print styles */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  body {
+    @apply bg-white text-black;
+  }
+  
+  .chart-container {
+    @apply border border-gray-400;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  :root {
+    --border: 0 0 0; /* #000000 */
+    --primary: 0 0 100; /* #0000FF */
+    --destructive: 255 0 0; /* #FF0000 */
+  }
+  
+  .dark {
+    --border: 255 255 255; /* #FFFFFF */
+    --primary: 100 100 255; /* #6464FF */
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  .animate-pulse,
+  .animate-bounce,
+  .animate-float,
+  .animate-pulse-slow,
+  .animate-bounce-subtle {
+    animation: none !important;
+  }
+}
